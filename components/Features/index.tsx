@@ -56,7 +56,7 @@ export function Features() {
           </Flex>
           <Flex>
             <Flex direction={"column"} align={"start"} w={"100%"} px={6}>
-              <Text fontSize="3xl" color="brand.default">
+              <Text fontSize="3xl" color="brand.default" fontFamily={"Kalam"}>
                 Benefity
               </Text>
               <Heading fontSize={"3xl"} mb={6}>

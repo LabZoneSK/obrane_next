@@ -100,6 +100,34 @@ export default function CallToActionWithVideo() {
       >
         <Features />
       </Box>
+      <Container maxW={"6xl"} py={75}>
+        <Flex>
+          <Flex direction="column" width={"50%"}>
+            <Text fontSize="3xl" color="brand.default" fontFamily={"Kalam"}>
+              Misia
+            </Text>
+            <Heading pb={6}>Ciele projektu</Heading>
+            <Text mb={4}>
+              Spájanie ľudí rôznych vekových kategórií prostredníctvom ich
+              záľuby v zbere ovocia a zeleniny a pomoc im zlepšiť ich sociálne
+              väzby.
+            </Text>
+            <Text mb={4}>
+              Cieľom projektu je pomôcť ľuďom nájsť spoločnú záľubu, prepojiť
+              staršiu generáciu s mladšími ľuďmi. Chceme zhromažďovať informácie
+              o lokálnych plodinách a zdieľať ich medzi členmi skupiny a tiež
+              podporiť miestne farmárske komunity.
+            </Text>
+            <Text>
+              Veríme, že tento projekt prinesie radosť a spokojnosť všetkým
+              zúčastneným a pomôže vytvorenie lokálnych komunít.
+            </Text>
+          </Flex>
+          <Flex>
+            <Image src={"/images/misia.png"} alt="Misia projektu" />
+          </Flex>
+        </Flex>
+      </Container>
     </>
   );
 }

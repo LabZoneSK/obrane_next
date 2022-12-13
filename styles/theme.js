@@ -15,4 +15,7 @@ const config = {
 export const theme = extendTheme({
   colors,
   config,
+  fonts: {
+    kalam: `'Kalam', sans-serif`,
+  },
 });
