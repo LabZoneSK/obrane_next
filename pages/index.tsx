@@ -101,8 +101,8 @@ export default function CallToActionWithVideo() {
         <Features />
       </Box>
       <Container maxW={"6xl"} py={75}>
-        <Flex>
-          <Flex direction="column" width={"50%"}>
+        <Flex direction={{ base: "column", sm: "row" }}>
+          <Flex direction="column" width={{ base: "100%", sm: "50%" }}>
             <Text fontSize="3xl" color="brand.default" fontFamily={"Kalam"}>
               Misia
             </Text>
@@ -124,7 +124,11 @@ export default function CallToActionWithVideo() {
             </Text>
           </Flex>
           <Flex>
-            <Image src={"/images/misia.png"} alt="Misia projektu" />
+            <Image
+              mt={{ base: 12, sm: 0 }}
+              src={"/images/misia.png"}
+              alt="Misia projektu"
+            />
           </Flex>
         </Flex>
       </Container>

@@ -36,7 +36,7 @@ const features = [
   },
   {
     id: 5,
-    title: "Zdravšie a chutnejšie",
+    title: "Zdravšie a bez E-čok",
     text: "Zber lokálneho ovocia môže mať pozitívny vplyv na vaše zdravie. Lokálne je zvyčajne pestované v súlade s prírodou, bez použitia chemických postrekov.",
   },
 ];
@@ -46,7 +46,7 @@ export function Features() {
     <Box>
       <Container maxW={"6xl"} mt={10} py={6}>
         <Flex>
-          <Flex>
+          <Flex display={{ base: "none", sm: "flex" }}>
             <Box>
               <Image
                 src="/images/obrane_benefits.png"

@@ -1,4 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
+import { StyleFunctionProps } from "@chakra-ui/theme-tools";
 
 const colors = {
   brand: {
@@ -17,5 +18,12 @@ export const theme = extendTheme({
   config,
   fonts: {
     kalam: `'Kalam', sans-serif`,
+  },
+  styles: {
+    global: (props: StyleFunctionProps) => ({
+      body: {
+        fontSize: "lg",
+      },
+    }),
   },
 });
