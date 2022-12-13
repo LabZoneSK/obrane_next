@@ -3,11 +3,10 @@ import {
   Container,
   Flex,
   Heading,
-  Image,
   SimpleGrid,
   Icon,
+  Image,
   Text,
-  Show,
   HStack,
   VStack,
 } from "@chakra-ui/react";
@@ -47,16 +46,14 @@ export function Features() {
     <Box>
       <Container maxW={"6xl"} mt={10} py={6}>
         <Flex>
-          <Show above="sm">
-            <Flex>
-              <Box w={"100%"}>
-                <Image
-                  src="/images/obrane_benefits.png"
-                  alt="Benefity projektu"
-                />
-              </Box>
-            </Flex>
-          </Show>
+          <Flex>
+            <Box>
+              <Image
+                src="/images/obrane_benefits.png"
+                alt="Benefity projektu"
+              />
+            </Box>
+          </Flex>
           <Flex>
             <Flex direction={"column"} align={"start"} w={"100%"} px={6}>
               <Text fontSize="3xl" color="brand.default">
